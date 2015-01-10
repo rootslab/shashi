@@ -73,7 +73,14 @@ Shashi( Number hash_fn, Number items_to_hash, Number prime_for_seed_range ) : Ar
 > - the underlying seed __[Sequence](https://github.com/rootslab/brando)__, used for generating the hashed value (an integer).
 
 ```javascript
+/*
+ * When you only need to regenerate random data for seeding your hash functions,
+ * you can simply refresh the seed sequence using Sequence#fill or Sequence#parse.
+ *
+ * See also https://github.com/rootslab/brando.
+ */
 Array : [ Function uhash, Sequence seed ]
+
 // universal set of hash functions
 uhash : function ( Number fn_index, Buffer input_data [, Number bytes_per_item ] )
 ```
