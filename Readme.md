@@ -74,6 +74,9 @@ var Shashi  = require( 'shashi' );
  * - every hash fn, expects/accepts at most 16 items to encode
  * - the range of items should be: (0,256), then using 2 byte
  *   per item in the seed sequence.
+ *
+ * NOTE: if the number supplied, for the seed sequence range,
+ * is not a prime, you'll get an Error.
  */
 Shashi( Number hash_fn, Number items_to_hash, Number prime_for_seed_range ) : Array
 ```
@@ -106,8 +109,9 @@ Shashi( Number h, Number i, Number p [, Buffer src [, Function cback ] ] ) : und
 
 ```javascript
 /*
- * NOTE: when the sample data are not enough to fill the random
- * seed Sequence, an Error e was returned, otherwise e is null.
+ * NOTE: an error was returned when:
+ * - the number supplied for the seed sequence range is not a prime.
+ * - the sample data are not enough to fill the random seed Sequence.
  */
 cback : function ( Error e, Function uhash, Sequence seed ) { .. }
 ```
