@@ -55,24 +55,36 @@ var Shashi  = require( 'shashi' );
 
 > Arguments within [ ] are optional.
 
-####Generate seed sequence using Math.random.
+#####Generate seed sequence using Math.random.
+
+> get a method to use a family of hash functions.
 
 ```javascript
+/*
+ * For example, Shashi( 2, 16, 257 ) generates:
+ * - 2 hash functions, h0 and h1 (indexes 0, 1)
+ * - every hash fn, expects/accepts at most 16 items to encode
+ * - the range of items should be: (0,256), then using 2 byte per item
+ */
 Shashi( Number hash_functions, Number items_to_hash, Number prime_for_seed_seq_range ) : Array
 ```
+
 > It returns an Array composed by:
 
 ```javascript
 Array : [ Function uhash, Sequence seed ]
 ```
+
 > a method used to retrieve and execute a particular hash function, using an index (0-k)
 
 ```javascript
 uhash : function ( Number hash_fn_index, Buffer input_data [, Number input_bytes_per_item ] )
 ```
+
 > the underlying seed __[Sequence](https://github.com/rootslab/brando)__, used for generating the hashed value (an integer).
 
-####Generate seed sequence using a random sample.
+
+#####Generate seed sequence using a random sample.
 
 > When a data Buffer is used to fill the seed sequence, the method automatically switches to the callback mode.
 
