@@ -2,7 +2,7 @@
 
 [![NPM VERSION](http://img.shields.io/npm/v/shashi.svg)](https://www.npmjs.org/package/shashi)
 [![CODACY BADGE](https://img.shields.io/codacy/b18ed7d95b0a4707a0ff7b88b30d3def.svg)](https://www.codacy.com/public/44gatti/shashi)
-[![CODECLIMATE-TEST-COVERAGE](https://codeclimate.com/github/rootslab/shashi/badges/coverage.svg)](https://codeclimate.com/github/rootslab/shashi)
+[![CODECLIMATE-TEST-COVERAGE](https://img.shields.io/codeclimate/coverage/github/)](https://codeclimate.com/github/rootslab/shashi)
 [![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rootslab/shashi#mit-license)
 
 [![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/shashi.svg)](http://travis-ci.org/rootslab/shashi)
@@ -28,7 +28,6 @@
 ```bash
 $ npm install shashi [-g]
 ```
-
 > __require__:
 
 ```javascript
