@@ -1,19 +1,19 @@
 ### Shashi
 
-[![NPM VERSION](http://img.shields.io/npm/v/shashi.svg)](https://www.npmjs.org/package/shashi)
-[![CODACY BADGE](https://img.shields.io/codacy/b18ed7d95b0a4707a0ff7b88b30d3def.svg)](https://www.codacy.com/public/44gatti/shashi)
-[![CODECLIMATE-TEST-COVERAGE](https://img.shields.io/codeclimate/coverage/github/rootslab/shashi.svg)](https://codeclimate.com/github/rootslab/shashi)
-[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rootslab/shashi#mit-license)
+[![NPM VERSION](http://img.shields.io/npm/v/shashi.svg?style=flat)](https://www.npmjs.org/package/shashi)
+[![CODACY BADGE](https://img.shields.io/codacy/b18ed7d95b0a4707a0ff7b88b30d3def.svg?style=flat)](https://www.codacy.com/public/44gatti/shashi)
+[![CODECLIMATE](http://img.shields.io/codeclimate/github/rootslab/shashi.svg?style=flat)](https://codeclimate.com/github/rootslab/shashi)
+[![CODECLIMATE-TEST-COVERAGE](https://img.shields.io/codeclimate/coverage/github/rootslab/shashi.svg?style=flat)](https://codeclimate.com/github/rootslab/shashi)
+[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/rootslab/shashi#mit-license)
 
-[![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/shashi.svg)](http://travis-ci.org/rootslab/shashi)
-[![BUILD STATUS](http://img.shields.io/david/rootslab/shashi.svg)](https://david-dm.org/rootslab/shashi)
-[![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/shashi.svg)](https://david-dm.org/rootslab/shashi#info=devDependencies)
+[![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/shashi.svg?style=flat)](http://travis-ci.org/rootslab/shashi)
+[![BUILD STATUS](http://img.shields.io/david/rootslab/shashi.svg?style=flat)](https://david-dm.org/rootslab/shashi)
+[![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/shashi.svg?style=flat)](https://david-dm.org/rootslab/shashi#info=devDependencies)
 
-[![status](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.badges/status.png)](https://sourcegraph.com/github.com/rootslab/shashi)
-[![views](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/shashi)
-[![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/shashi)
-[![NPM DOWNLOADS](http://img.shields.io/npm/dm/shashi.svg)](http://npm-stat.com/charts.html?package=shashi)
-[![GITTIP](http://img.shields.io/gittip/rootslab.svg)](https://www.gittip.com/rootslab/)
+[![status](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.badges/status.png?style=flat)](https://sourcegraph.com/github.com/rootslab/shashi)
+[![views](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views.png?style=flat)](https://sourcegraph.com/github.com/rootslab/shashi)
+[![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views-24h.png?style=flat)](https://sourcegraph.com/github.com/rootslab/shashi)
+[![NPM DOWNLOADS](http://img.shields.io/npm/dm/shashi.svg)?style=flat](http://npm-stat.com/charts.html?package=shashi)
 
 [![NPM GRAPH1](https://nodei.co/npm-dl/shashi.png)](https://nodei.co/npm/shashi/)
 
