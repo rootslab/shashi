@@ -89,7 +89,7 @@ uhash : function ( Number hash_fn_index, Buffer input_data [, Number ibytes_per_
 > When a data Buffer is used to fill the seed sequence, the method automatically switches to the callback mode.
 
 ```javascript
-Shashi( Number h_f, Number i_2_h, Number p_4_ssr [, Buffer rsample [, Function cback ] ] ) : undefined
+Shashi( Number h, Number i, Number p [, Buffer sample [, Function cback ] ] ) : undefined
 ```
 > the callback gets 3 arguments:
 
