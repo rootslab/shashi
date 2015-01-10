@@ -78,7 +78,7 @@ Array : [ Function uhash, Sequence seed ]
 > a method used to retrieve and execute a particular hash function, using an index (0-k)
 
 ```javascript
-uhash : function ( Number hash_fn_index, Buffer input_data [, Number ibytes_per_item ] )
+uhash : function ( Number fn_index, Buffer input_data [, Number bytes_per_item ] )
 ```
 
 > the underlying seed __[Sequence](https://github.com/rootslab/brando)__, used for generating the hashed value (an integer).
@@ -89,7 +89,7 @@ uhash : function ( Number hash_fn_index, Buffer input_data [, Number ibytes_per_
 > When a data Buffer is used to fill the seed sequence, the method automatically switches to the callback mode.
 
 ```javascript
-Shashi( Number h, Number i, Number p [, Buffer sample [, Function cback ] ] ) : undefined
+Shashi( Number h, Number i, Number p [, Buffer rand [, Function cback ] ] ) : undefined
 ```
 > the callback gets 3 arguments:
 
