@@ -15,7 +15,7 @@ var log = console.log
     // selected range for input values is [0-12]
     , r = 13
     // load a file
-    , random_data = fs.readFileSync( './example/sample' )
+    , random_data = fs.readFileSync( __dirname + '/sample' )
     ;
 
 Shashi( h, i, p, random_data, function ( err, ufn, seed ) {

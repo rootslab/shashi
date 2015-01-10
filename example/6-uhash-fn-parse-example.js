@@ -8,7 +8,7 @@ var log = console.log
     , Brando = require( 'brando' )
     , Shashi = require( '../' )
     // items to hash
-    , i = 64 * 1024
+    , i = 1024
     // how many random hash function to generate
     , h = 6
     // a prime to define range (at least ~i*2) for seed sequence values (range = prime - 1)
@@ -16,7 +16,7 @@ var log = console.log
     // selected range for input values is [0-12]
     , r = 13
     // load a file
-    , random_data = fs.readFileSync( './example/sample' )
+    , random_data = fs.readFileSync( __dirname + '/sample' )
     ;
 
 Shashi( h, i, p, random_data, function ( err, ufn, seed ) {
