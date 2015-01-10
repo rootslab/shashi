@@ -1,6 +1,6 @@
-{
+ù{
   "name": "shashi"
-  , "version": "0.0.5"
+  , "version": "0.0.6"
   , "description": "Shashi,  a simple module to generate, using pseudo-randomness, a universal family/set of hash functions, which produce integer values."
   , "homepage": "https://github.com/rootslab/shashi"
   , "private": false
