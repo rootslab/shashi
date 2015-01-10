@@ -9,15 +9,15 @@
 [![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/shashi.svg?style=flat)](http://travis-ci.org/rootslab/shashi)
 [![BUILD STATUS](http://img.shields.io/david/rootslab/shashi.svg?style=flat)](https://david-dm.org/rootslab/shashi)
 [![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/shashi.svg?style=flat)](https://david-dm.org/rootslab/shashi#info=devDependencies)
-
-[![status](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.badges/status.png?style=flat)](https://sourcegraph.com/github.com/rootslab/shashi)
-[![views](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views.png?style=flat)](https://sourcegraph.com/github.com/rootslab/shashi)
-[![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views-24h.png?style=flat)](https://sourcegraph.com/github.com/rootslab/shashi)
 [![NPM DOWNLOADS](http://img.shields.io/npm/dm/shashi.svg?style=flat)](http://npm-stat.com/charts.html?package=shashi)
 
 [![NPM GRAPH1](https://nodei.co/npm-dl/shashi.png)](https://nodei.co/npm/shashi/)
 
 [![NPM GRAPH2](https://nodei.co/npm/shashi.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/shashi/)
+
+[![status](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.badges/status.png)](https://sourcegraph.com/github.com/rootslab/shashi)
+[![views](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/shashi)
+[![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/shashi)
 
 > __Shashi__, a simple module to generate, using pseudo-randomness, a universal family/set of hash functions,which produce integer values.
 
