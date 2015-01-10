@@ -98,7 +98,7 @@ Shashi( Number h, Number i, Number p [, Buffer src [, Function cback ] ] ) : und
 ```javascript
 /*
  * NOTE: when the sample data are not enough to fill the random
- * seed Sequence, an Error was returned, otherwise null.
+ * seed Sequence, an Error e was returned, otherwise e is null.
  */
 cback : function ( Error e, Function uhash, Sequence seed ) { .. }
 ```
