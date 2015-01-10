@@ -13,7 +13,7 @@
 [![status](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.badges/status.png?style=flat)](https://sourcegraph.com/github.com/rootslab/shashi)
 [![views](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views.png?style=flat)](https://sourcegraph.com/github.com/rootslab/shashi)
 [![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views-24h.png?style=flat)](https://sourcegraph.com/github.com/rootslab/shashi)
-[![NPM DOWNLOADS](http://img.shields.io/npm/dm/shashi.svg)?style=flat](http://npm-stat.com/charts.html?package=shashi)
+[![NPM DOWNLOADS](http://img.shields.io/npm/dm/shashi.svg?style=flat)](http://npm-stat.com/charts.html?package=shashi)
 
 [![NPM GRAPH1](https://nodei.co/npm-dl/shashi.png)](https://nodei.co/npm/shashi/)
 
