@@ -15,6 +15,10 @@
 
 [![NPM GRAPH2](https://nodei.co/npm/shashi.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/shashi/)
 
+[![status](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.badges/status.png)](https://sourcegraph.com/github.com/rootslab/shashi)
+[![views](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/shashi)
+[![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/shashi)
+
 > __Shashi__, a simple module to generate, using pseudo-randomness, a universal family/set of hash functions, which produce integer values within the selected range (a prime number).
 
 > See also __[Brando](https://github.com/rootslab/brando)__.
@@ -121,9 +125,5 @@ cback : function ( Error e, Function uhash, Sequence seed ) { .. }
 > CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 > TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 > SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-[![status](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.badges/status.png)](https://sourcegraph.com/github.com/rootslab/shashi)
-[![views](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/shashi)
-[![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/shashi)
 
 [![GA](https://ga-beacon.appspot.com/UA-53998692-1/shashi/Readme?pixel)](https://github.com/igrigorik/ga-beacon)
