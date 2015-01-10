@@ -5,9 +5,6 @@
 
 var log = console.log
     , fs = require( 'fs' )
-    , ceil = Math.ceil
-    , dlog = Math.log
-    , Brando = require( 'brando' )
     , Shashi = require( '../' )
     // items to hash
     , i = 7
