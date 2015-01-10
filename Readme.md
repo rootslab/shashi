@@ -19,7 +19,7 @@
 [![views](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/shashi)
 [![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/shashi)
 
-> __Shashi__, a simple module to generate, using pseudo-randomness, a universal family/set of hash functions,which produce integer values.
+> __Shashi__, a simple module to generate, using pseudo-randomness, a universal family/set of hash functions, which produce integer values within the selected range (a prime number).
 
 > See also __[Brando](https://github.com/rootslab/brando)__.
 
