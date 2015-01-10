@@ -70,19 +70,14 @@ Shashi( Number hash_fn, Number items_to_hash, Number prime_for_seed_range ) : Ar
 ```
 
 > It returns an Array composed by:
+> - a method used to retrieve and execute a particular hash function, using an index (0-k).
+> - the underlying seed __[Sequence](https://github.com/rootslab/brando)__, used for generating the hashed value (an integer).
 
 ```javascript
 Array : [ Function uhash, Sequence seed ]
-```
-
-> a method used to retrieve and execute a particular hash function, using an index (0-k)
-
-```javascript
+// universal set of hash functions
 uhash : function ( Number fn_index, Buffer input_data [, Number bytes_per_item ] )
 ```
-
-> the underlying seed __[Sequence](https://github.com/rootslab/brando)__, used for generating the hashed value (an integer).
-
 
 #####Generate seed sequence using a random sample.
 
