@@ -49,8 +49,17 @@ var Shashi  = require( 'shashi' );
 ```bash
  $ node test/file-name.js
 ```
+###Run Benchmarks
 
-###Constructor - Method
+> run miscellaneous benchmarks for Shashi:
+
+```bash
+ $ cd shashi/
+ $ npm run bench
+```
+----------------------------------------------------------------------------------------------
+
+###Method
 
 > Arguments within [ ] are optional.
 
