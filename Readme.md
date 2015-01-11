@@ -49,7 +49,7 @@ $ npm install shashi [-g]
 > __require__:
 
 ```javascript
-var Shashi  = require( 'shashi' );
+var Shashi = require( 'shashi' );
 ```
 ###Run Tests
 
@@ -87,7 +87,7 @@ var Shashi  = require( 'shashi' );
 
 ```javascript
 /*
- * For example, Shashi( 2, 16, 257 ) generates:
+ * A trivial example, Shashi( 2, 16, 257 ) generates:
  * - 2 hash functions, h0 and h1 (indexes 0, 1)
  * - every hash fn, expects/accepts at most 16 items to encode
  * - the range of items should be: (0,256), then using 2 byte
