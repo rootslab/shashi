@@ -7,7 +7,7 @@ var log = console.log
     // max items to hash in the current range
     , i = 1024
     // how many random hash function to generate
-    , h = 2
+    , h = 3
     , result = Shashi( h, i, p )
     , ufn = result[ 0 ]
     , seed = result[ 1 ]
@@ -16,10 +16,14 @@ var log = console.log
     , input = seq.result
     , v0 = .1
     , v1 = -1
+    , v2 = -1
     , stime = -1
     , etime = -1
     , runs = 1024
     , j = runs
+    // , fn0 = ufn.bind( null, 0 )
+    // , fn1 = ufn.bind( null, 1 )
+    // , fn2 = ufn.bind( null, 2 )
     ;
 
 log();
@@ -27,8 +31,9 @@ log( '- calculate %d hash values from input data (%d times)', h, runs );
 
 stime = Date.now();
 for ( ; ~j; --j ) {
-    vo = ufn( 0, input );
-    v1 = ufn( 1, input );
+    v0 = ufn( 0, input ); // fn0( input );
+    v1 = ufn( 1, input ); // fn1( input );
+    v2 = ufn( 2, input ); // fn2( input );
 }
 etime = ( Date.now() - stime ) / 1000;
 
@@ -37,11 +42,12 @@ log( '- uhash: %d functions', h );
 log();
 log( '- prime: %d', p );
 log( '- range: [0,%d]', p - 2 );
+log( '- items: %d', i );
 log();
 log( '- isize: %d bytes', seq.result.length );
 log( '- ssize: %d bytes', seed.result.length );
 log();
-log( '- truns: %d runs', runs * 2 );
+log( '- truns: %d hashes', runs * 3 );
 log( '- etime: %d secs', etime );
 log();
-log( '- hrate: %d hash/sec', ( runs * 2 / etime ).toFixed( 2 ) );
+log( '- hrate: %d hash/sec', ( runs * 3 / etime ).toFixed( 2 ) );

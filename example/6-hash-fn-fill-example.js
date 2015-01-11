@@ -10,7 +10,7 @@ var log = console.log
     , i = 64 * 1024
     // how many random hash function to generate
     , h = 6
-    // a prime to define range (at least ~i*2) for seed sequence values (range = prime - 1)
+    // a prime to define range for seed sequence values (range = prime - 1)
     , p = 104729
     , result = Shashi( h, i, p )
     , ufn = result[ 0 ]

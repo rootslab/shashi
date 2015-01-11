@@ -1,7 +1,7 @@
 fails=0
 n=0
 for t in bench/*-bench.js; do
-  echo -e "\n [" $n "-" $t "]"
+  echo -e "\n [*"$n"*]:[" $t" ]"
   node $t || let fails++
   let n++
 done
