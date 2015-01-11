@@ -27,6 +27,11 @@ var log = console.log
 log();
 log( '- calculate %d hash values from input data (%d times)', h, runs );
 
+/* 
+ * this loop is trivial, it parses the same values
+ * every time from the sequence, it is used only to
+ * get an average value.
+ */
 stime = Date.now();
 for ( ; ~j; --j ) {
     v0 = ufn( 0, input ); // fn0( input );
