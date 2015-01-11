@@ -19,9 +19,27 @@
 [![views](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/shashi)
 [![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/shashi/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/shashi)
 
-> __Shashi__, a simple module to generate, using pseudo-randomness, a universal family/set of hash functions, which produce integer values within the selected range (a prime number).
+> __Shashi__, a simple module to generate, using __pseudo-randomness__, a __universal family/set of hash functions__, which produce __integer values__ within the selected range (a __prime__ number).
 
-> See also __[Brando](https://github.com/rootslab/brando)__.
+###A random bit of theory
+
+> A family __H__ of hash functions is __universal__ if, for any two items in the universe, the __probability of collision__ is as small as possible.
+
+> Briefly, assumed that for every input key k, h ∈ H:
+
+> - h(k) map to { 0, 1, .., m−1 }
+
+> then, __H is universal__ when, for any two items x != y:
+
+> - Prob( h(x) == h(y) ) = __1/m__
+
+> In other words, chosen __h__ uniformly at random, from a __universal set H__ of hash functions, if h is
+> used to hash __n__ arbitrary keys into __m__ slots, then, for a given key __k__, we expect that the total
+> number of __collisions with k is < n/m__.
+
+> See also:
+> - __[Universal Hashing](http://en.wikipedia.org/wiki/Universal_hashing)__
+> - __[Brando](https://github.com/rootslab/brando)__
 
 ###Install
 

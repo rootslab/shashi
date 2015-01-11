@@ -1,6 +1,6 @@
 {
   "name": "shashi"
-  , "version": "0.0.13"
+  , "version": "0.0.14"
   , "description": "Shashi, a simple module to generate, using pseudo-randomness, a universal family/set of hash functions, which produce integer values within the selected range (a prime number).."
   , "homepage": "https://github.com/rootslab/shashi"
   , "private": false
@@ -10,9 +10,10 @@
   }
   , "keywords": [
     "shashi"
-    , "hash"
     , "universal hashing"
-    , "random"
+    , "hashing"
+    , "hash functions"
+    , "random functions"
     , "randomness"
     , "integer"
     , "prime"
