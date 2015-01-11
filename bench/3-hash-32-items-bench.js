@@ -14,7 +14,7 @@ var log = console.log
     // generate random sequence for input with Math.random()
     , seq = Brando.emt( i, p - 2 ).fill()
     , input = seq.result
-    , v0 = .1
+    , v0 = -1
     , v1 = -1
     , v2 = -1
     , stime = -1

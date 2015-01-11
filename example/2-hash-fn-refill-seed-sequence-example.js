@@ -13,8 +13,6 @@ var log = console.log
     , result = Shashi( h, i, p )
     , ufn = result[ 0 ]
     , seed = result[ 1 ]
-    // selected range for input values is [0-12]
-    , r = 13
     // use a sequence for input
     , input = new Buffer( [ 0, 0, 0, 0, 12, 12, 12 ] )
     // get 2 hash functions, reading only 1 byte at the time from input buffer
