@@ -25,7 +25,7 @@
 
 > A family __H__ of hash functions is __universal__ if, for any two items in the universe, the __probability of collision__ is as small as possible.
 
-> Briefly, assumed that for every input key k, h ∈ H:
+> Briefly, assumed that for every input key k, and hash function h ∈ H:
 
 > - h(k) map to { 0, 1, .., m−1 }
 
