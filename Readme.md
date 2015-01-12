@@ -48,7 +48,7 @@
 >  - pick-up at random 2 hash functions from H
 >
 >  - for every key k ∈ K, add resulting edge and vertices to the 2-graph:
->    - edge = (v0, v1) v0 = h0(k), v1 = h1(k)
+>    - edge = (v0, v1), with v0 = h0(k), v1 = h1(k)
 >
 >  - now testing the 2-graph acyclicity (it could be performend in linear time).
 >  - if 2-graph is acyclic:
