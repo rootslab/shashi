@@ -25,7 +25,7 @@
 
 > A family __H__ of hash functions is __universal__ if, for any two items in the universe, the __probability of collision__ is as small as possible.
 
-> Briefly, assumed that for every input key k, and hash function h ∈ H:
+> Briefly, assumed that for every input key k ∈ K and for every hash function h ∈ H:
 
 > - h(k) map to { 0, 1, .., m−1 }
 
@@ -35,10 +35,29 @@
 
 > In other words, chosen __h__ uniformly at random, from a __universal set H__ of hash functions, if h is
 > used to hash __n__ arbitrary keys into __m__ slots, then, for a given key __k__, we expect that the total
-> number of __collisions with k is < n/m__.
+> number of __collisions__ with k is < __n/m__.
+
+> Universal hash functions could also be used to compute __perfect hashing__, for a determined set of items.
+> __Choosing properly a prime p__ > |set of keys|, we will expect to find a perfect hash in a finite
+> time, interpreting lists of resulting hashed values as edges to insert in a __bipartite__ or __tripartite__
+> (hyper)graph.
+
+> For example, we choose |H| = 2, then H = { h0, h1 }:
+>
+> - while ( true ) :
+>  - pick-up at random 2 hash functions from H
+>
+>  - for every key k ∈ K, add resulting edge and vertices to the 2-graph:
+>    - edge = (v0, v1) v0 = h0(k), v1 = h1(k)
+>
+>  - now testing the 2-graph acyclicity (it could be performend in linear time).
+>  - if 2-graph is acyclic:
+>    - break loop, well done, from now, you can build a perfect hashing fn in a deterministic way.
+>    - otherwise continue loop, picking-up 2 others random hash functions, let's gamble!!
 
 > See also:
 > - __[Universal Hashing](http://en.wikipedia.org/wiki/Universal_hashing)__
+> - __[Perfect Hash Function](http://en.wikipedia.org/wiki/Perfect_hash_function)__
 > - __[Brando](https://github.com/rootslab/brando)__
 
 ###Install
