@@ -50,10 +50,13 @@
 >  - for every key k ∈ K, add resulting edge and vertices to the 2-graph:
 >    - edge = (v0, v1), with v0 = h0(k), v1 = h1(k)
 >
->  - now testing the 2-graph acyclicity (it could be performend in linear time).
+>  - now testing the 2-graph acyclicity (it could be performed in linear time).
 >  - if 2-graph is acyclic:
->    - break loop, well done, from now, you can build a perfect hashing fn in a deterministic way.
->    - otherwise continue loop, picking-up 2 others random hash functions, let's gamble!!
+>    - break the loop, well done!
+>      - from now on, you can build a perfect hashing function for your set of keys,
+>        in a deterministic way.
+>    - otherwise let's gamble!!
+>      - continue loop, picking-up 2 others random hash functions
 
 > See also:
 > - __[Universal Hashing](http://en.wikipedia.org/wiki/Universal_hashing)__
