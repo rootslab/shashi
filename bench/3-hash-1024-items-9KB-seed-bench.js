@@ -56,3 +56,4 @@ log( '- truns: %d hashes', runs * 3 );
 log( '- etime: %d secs', etime );
 log();
 log( '- hrate: %d hash/sec', ( runs * 3 / etime ).toFixed( 2 ) );
+log();
