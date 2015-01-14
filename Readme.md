@@ -112,7 +112,7 @@ var Shashi = require( 'shashi' );
  * A trivial example, Shashi( 2, 16, 257 ) generates:
  * - 2 hash functions, h0 and h1 (indexes 0, 1)
  * - every hash fn, expects/accepts at most 16 items to encode
- * - the range of items should be: (0,256), then using 2 byte
+ * - the range of items should be: [0,255], then using 1 byte
  *   per item in the seed sequence.
  *
  * NOTE: if the number supplied, for the seed sequence range,
