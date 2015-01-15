@@ -37,12 +37,22 @@
 > used to hash __n__ arbitrary keys into __m__ slots, then, for a given key __k__, we expect that the total
 > number of __collisions__ with k is < __n/m__.
 
-> Universal hash functions could also be used to compute __perfect hashing__, for a determined set of items.
-> __Choosing properly a prime p__ > |set of keys|, we will expect to find a perfect hash in a finite
-> time, interpreting lists of resulting hashed values as edges to insert in a __bipartite__ or __tripartite__
-> (hyper)graph.
+> Universal hash functions could also be used to compute __perfect hashing__, for a determined set of keys.
 
-> For example, we choose |H| = 2, then H = { h0, h1 }:
+> __Choosing properly a prime p and a constant c__:
+> - p > c*|set of keys| (c >= ~2.09)
+
+> We expect to find a perfect hash mapping for values, in a __finite time__ (with __high probability__), interpreting lists of resulting hashed values as edges to insert in a __bipartite__ or __tripartite__ (hyper) __graph G__ = {V,E}:
+> - |E| = n (keys)
+> - |V| = p
+
+> we set:
+> - |V| = c * |E|
+
+> then we choose a prime >= 2*n:
+> - |V| = p = c*|E| = c*n > n*2
+
+> Algo example; we choose |H| = 2, then H = { h0, h1 }:
 >
 > - while ( true ) :
 >  - pick-up at random 2 hash functions from H
