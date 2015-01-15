@@ -50,7 +50,7 @@
 > - |V| = c * |E|
 
 > then we choose a prime >= 2*n:
-> - |V| = p = c*|E| = c*n > n*2
+> - |V| = p = c * |E| = c * n > n * 2
 
 > Algo example; we choose |H| = 2, then H = { h0, h1 }:
 >
