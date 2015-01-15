@@ -17,7 +17,7 @@ var log = console.log
     , seed = result[ 1 ]
     // selected range for input values is [0-255]
     , r = 256
-    // generate ipv6-like random sequence of 32 octets/bytes, with Math.random()
+    // generate ipv6-like random sequence of 16 octets/bytes, with Math.random()
     , seq = Brando.emt( i, r ).fill()
     , input = seq.result
     // get 2 hash functions, reading only 1 byte at the time from input buffer
