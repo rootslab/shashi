@@ -1,5 +1,6 @@
 /*
- * Benchmark for hashing ipv6-like Buffers, 32 bytes/octets/items or 128 bits,
+ * Benchmark for hashing ipv6-like Buffers, 16 bytes/octets/items or 128 bits,
+ * reading input 2 bytes at the time.
  */
 
 var log = console.log
@@ -7,15 +8,15 @@ var log = console.log
     , Shashi = require( '../' )
     // how many random hash function to generate
     , h = 2
-    // items to hash, 16 bytes/octets (16*8 = 128 bits)
-    , i = 16
+    // items to hash, 8 items * 16 bits/item = 128 bits
+    , i = 8
     // a prime to define range for seed sequence values (range = prime - 1)
     , p = 104729
     , result = Shashi( h, i, p )
     , ufn = result[ 0 ]
     , seed = result[ 1 ]
-    // generate ipv6-like random sequence of 32 octets/bytes, with Math.random()
-    , seq = Brando.emt( i, 256 ).fill()
+    // generate ipv6-like random sequence of 8 * 16 bits, with Math.random()
+    , seq = Brando.emt( i, 64 * 1024 ).fill()
     , input = seq.result
     , v0 = -1
     , v1 = -1
@@ -37,8 +38,8 @@ log( '- calculate %d hash values from input data (%d times)', h, runs );
 stime = Date.now();
 for ( ; ~j; --j ) {
     // read 1 byte at the time from input (16 items/octets to hash)
-    v0 = ufn( 0, input, 1 ); // fn0( input );
-    v1 = ufn( 1, input, 1 ); // fn1( input );
+    v0 = ufn( 0, input ); //, 2 );
+    v1 = ufn( 1, input ); //, 2 );
 }
 etime = ( Date.now() - stime ) / 1000;
 

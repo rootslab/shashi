@@ -8,7 +8,7 @@ var log = console.log
     , Shashi = require( '../' )
     // how many random hash function to generate
     , h = 2
-    // items to hash, 16 bytes/octets (32*8 = 128 bits)
+    // items to hash, 16 bytes/octets (16*8 = 128 bits)
     , i = 16
     // a prime to define range for seed sequence values (range = prime - 1)
     , p = 104729
