@@ -107,6 +107,8 @@ var Shashi = require( 'shashi' );
 ```bash
  $ cd shashi/
  $ npm run bench
+ # or to run a single file
+ $ node bench/file-name-bench.js
 ```
 ----------------------------------------------------------------------------------------------
 

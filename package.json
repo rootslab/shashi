@@ -1,6 +1,6 @@
 {
   "name": "shashi"
-  , "version": "0.2.0"
+  , "version": "0.2.1"
   , "description": "Shashi, a simple module to generate, using pseudo-randomness, a universal family/set of hash functions, which produce integer values within the selected range (a prime number).."
   , "homepage": "https://github.com/rootslab/shashi"
   , "private": false
@@ -27,7 +27,7 @@
   }
   , "dependencies": {
      "brando" : ">=0.0.61"
-     , "nprime" : ">=0.1.0"
+     , "nprime" : ">=0.1.2"
   },
   "devDependencies": {
      "dado" : ">=0.2.1"
