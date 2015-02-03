@@ -72,6 +72,7 @@
 > - __[Universal Hashing](http://en.wikipedia.org/wiki/Universal_hashing)__
 > - __[Perfect Hash Function](http://en.wikipedia.org/wiki/Perfect_hash_function)__
 > - __[Brando](https://github.com/rootslab/brando)__
+> - __[Nprime](https://github.com/rootslab/nprime)__
 
 ###Install
 
@@ -125,8 +126,9 @@ var Shashi = require( 'shashi' );
  * - the range of items should be: [0,255], then using 1 byte
  *   per item in the seed sequence.
  *
- * NOTE: if the number supplied, for the seed sequence range,
- * is not a prime, you'll get an Error.
+ * NOTE:
+ * - if the p number is not a prime, the next greater prime number will be calculated.
+ * - if the p number is out of range (> 2^53), you'll get an Error.
  */
 Shashi( Number hash_fn, Number items_to_hash, Number prime_for_seed_range ) : Array
 ```
