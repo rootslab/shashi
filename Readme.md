@@ -91,7 +91,7 @@ var Shashi = require( 'shashi' );
 ```bash
  $ cd shashi/
  # install or update devDependecies
- $ npm install --dev
+ $ npm install
  # run tests
  $ npm test
 ```
